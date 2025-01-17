@@ -1,0 +1,70 @@
+{
+    "eventKey": "pr:opened",
+    "date": "2025-01-17T14:35:00+00:00",
+    "actor": {
+        "name": "neildavies",
+        "emailAddress": "neil.davies@thrivelearning.com",
+        "id": 123,
+        "displayName": "Neil Davies",
+        "active": true,
+        "slug": "neildavies",
+        "type": "NORMAL"
+    },
+    "pullRequest": {
+        "id": 42,
+        "version": 1,
+        "title": "Add feature X",
+        "description": "This PR implements feature X and includes unit tests.",
+        "state": "OPEN",
+        "open": true,
+        "closed": false,
+        "createdDate": 1673955600000,
+        "updatedDate": 1673955600000,
+        "fromRef": {
+            "id": "refs/heads/feature-x",
+            "displayId": "feature-x",
+            "latestCommit": "d4c3dbd5c6e0c1b1c8a4d1d1d1f4f4e4c4d8a8e8",
+            "repository": {
+                "slug": "my-repo",
+                "id": 1,
+                "name": "My Repository",
+                "scmId": "git",
+                "state": "AVAILABLE",
+                "project": {
+                    "key": "PROJ",
+                    "id": 101,
+                    "name": "My Project",
+                    "type": "NORMAL"
+                }
+            }
+        },
+        "toRef": {
+            "id": "refs/heads/main",
+            "displayId": "main",
+            "latestCommit": "9f8a7c6d5b4e3d2c1f0f0e1f0d1c0b0a1a2a3c4d",
+            "repository": {
+                "slug": "my-repo",
+                "id": 1,
+                "name": "My Repository",
+                "scmId": "git",
+                "state": "AVAILABLE",
+                "project": {
+                    "key": "PROJ",
+                    "id": 101,
+                    "name": "My Project",
+                    "type": "NORMAL"
+                }
+            }
+        },
+        "reviewers": [
+            "Jim Johnson"
+        ],
+        "links": {
+            "self": [
+                {
+                    "href": "https://bitbucket.example.com/projects/PROJ/repos/my-repo/pull-requests/42"
+                }
+            ]
+        }
+    }
+}
