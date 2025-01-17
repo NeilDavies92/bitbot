@@ -1,6 +1,10 @@
 // TERRAMATE: GENERATED AUTOMATICALLY DO NOT EDIT
 
-provider "aws" {
-  features {
+terraform {
+  required_providers {
+    aws = {
+      source  = globals.aws.source
+      version = globals.aws.version
+    }
   }
 }

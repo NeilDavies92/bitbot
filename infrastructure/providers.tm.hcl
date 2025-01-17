@@ -1,11 +1,11 @@
 globals {
   aws = {
     source  = "hashicorp/aws"
-    version = "=< 1.0.0, >2.0.0"
+    version = "=<5, >6"
   }
 }
 
-generate_hcl "versions.tf" {
+generate_hcl "providers.tf" {
   content {
     terraform {
       required_providers {
@@ -14,14 +14,6 @@ generate_hcl "versions.tf" {
           version = globals.aws.version
         }
       }
-    }
-  }
-}
-
-generate_hcl "providers.tf" {
-  content {
-    provider "aws" {
-      features {}
     }
   }
 }

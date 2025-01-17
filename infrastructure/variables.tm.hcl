@@ -1,5 +1,6 @@
 globals {
     tags = {
+        service = "bit-bot"
         environment = "test"
         managed_by = "terraform"
     }
